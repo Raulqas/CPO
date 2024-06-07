@@ -1,0 +1,6 @@
+cd C:/Users/Book/CLionProjects/gas
+
+
+gcc main.c -o sqlite_gtk_example `pkg-config --cflags --libs gtk+-3.0` -lsqlite3
+
+./sqlite_gtk_example.exe
